@@ -28,26 +28,32 @@ console.log(teachers);
 
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers.pop;{
+const lastTeacher = teachers.pop();
   console.log(teachers);
   console.log(lastTeacher);
-}
+
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers.slice(-6);{
+const firstTeacher = teachers.shift();
   console.log(firstTeacher);
-}
+
 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-teachers.push("Vanessa");{
+teachers.push("Vanessa");
   console.log(teachers);
-}
+
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+teachers.unshift("Sarah")
+console.log(teachers);
+
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
+teachers.indexOf("Lewis")
+console.log(teachers);
+
 // e salvalo nella variabile lewisIndex
 const lewisIndex = null;
 
