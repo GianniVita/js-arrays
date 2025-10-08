@@ -28,16 +28,22 @@ console.log(teachers);
 
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers.pop;
-console.log(teachers);
-console.log(lastTeacher);
+const lastTeacher = teachers.pop;{
+  console.log(teachers);
+  console.log(lastTeacher);
+}
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers.slice(0);
-console.log(firstTeacher);
+const firstTeacher = teachers.slice(-6);{
+  console.log(firstTeacher);
+}
 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");{
+  console.log(teachers);
+}
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
