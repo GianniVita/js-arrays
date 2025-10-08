@@ -29,6 +29,10 @@ console.log(longNames);
 
 
 // 3. Rimuovi 'Ed' dall'array teachers
+for (let i = 0; i < teachers.length; i++) {
+  const teacher = teachers.splice(1);
+}
+console.log(`new teachers list ${teachers}`);
 
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
